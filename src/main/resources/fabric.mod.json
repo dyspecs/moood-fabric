@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "loadmyresources",
+  "version": "1.0.4",
+  "name": "LoadMyResources",
+  "description": "Load external resource packs from disk and add a repository source.",
+  "authors": [
+    "Keksuccino"
+  ],
+  "license": "MIT",
+  "entrypoints": {
+    "main": [
+      "de.keksuccino.loadmyresources.LoadMyResources"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  },
+  "mixins": [
+    "loadmyresources.mixin.json"
+  ],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://example.com/source"
+  }
+}

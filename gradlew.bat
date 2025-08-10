@@ -1,0 +1,3 @@
+@ECHO OFF
+ECHO Descargando Gradle Wrapper...
+gradlew.bat %*

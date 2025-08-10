@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "de/keksuccino/loadmyresources/mixin/IMixinTransferableSelectionListPackEntry": {
+      "pack": "field_19129:Lnet/minecraft/class_5369$class_5371;"
+    },
+    "de/keksuccino/loadmyresources/mixin/MixinPackRepository": {
+      "<init>": "Lnet/minecraft/class_3283;<init>([Lnet/minecraft/class_3285;)V"
+    },
+    "de/keksuccino/loadmyresources/mixin/MixinPackSelectionScreen": {
+      "updateList": "Lnet/minecraft/class_5375;method_29673(Lnet/minecraft/class_521;Ljava/util/stream/Stream;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "de/keksuccino/loadmyresources/mixin/IMixinTransferableSelectionListPackEntry": {
+        "pack": "field_19129:Lnet/minecraft/class_5369$class_5371;"
+      },
+      "de/keksuccino/loadmyresources/mixin/MixinPackRepository": {
+        "<init>": "Lnet/minecraft/class_3283;<init>([Lnet/minecraft/class_3285;)V"
+      },
+      "de/keksuccino/loadmyresources/mixin/MixinPackSelectionScreen": {
+        "updateList": "Lnet/minecraft/class_5375;method_29673(Lnet/minecraft/class_521;Ljava/util/stream/Stream;)V"
+      }
+    }
+  }
+}
