@@ -22,4 +22,4 @@ done
 
 PRGDIR=$(dirname "$PRG")
 
-exec "$PRGDIR"/gradle/wrapper/gradle-wrapper.jar "$@"
+exec java -jar "$PRGDIR/gradle/wrapper/gradle-wrapper.jar" "$@"
